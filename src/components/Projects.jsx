@@ -14,7 +14,15 @@ function Projects() {
 
   // Travel Guide screenshots
   // Add your actual screenshot filenames here later.
-  const travelScreenshots = [];
+const travelScreenshots = [
+  "/images/travelguide/Dashboard.png",
+  "/images/travelguide/View_Details.png",
+  "/images/travelguide/Add_to_MY_TRIP.png",
+  "/images/travelguide/Favourite.png",
+  "/images/travelguide/Dark_Mode_Dashboard.png",
+  "/images/travelguide/Login.png",
+  "/images/travelguide/Register.png"
+];
 
   const openScreenshots = (project) => {
     setActiveScreenshots(project);
