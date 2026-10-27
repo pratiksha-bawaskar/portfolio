@@ -1,7 +1,7 @@
 import {
   FaEnvelope,
   FaGithub,
-  FaLinkedin,
+  //FaLinkedin,
   FaBriefcase
 } from "react-icons/fa";
 
@@ -41,7 +41,7 @@ function Contact() {
 </a>
 
         {/* LinkedIn */}
-      <a
+      {/* <a
   href="https://linkedin.com/in/pratiksha-bawaskar8"
   target="_blank"
   rel="noreferrer"
@@ -50,7 +50,7 @@ function Contact() {
   <FaLinkedin className="contact-icon" />
   <h3>LinkedIn</h3>
   <p>Connect With Me</p>
-</a>
+</a> */}
         {/* Available For */}
         <div className="contact-box">
           <FaBriefcase className="contact-icon" />
